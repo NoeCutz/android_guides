@@ -9,6 +9,7 @@ import android.widget.ProgressBar;
 import android.widget.Toast;
 
 import java.util.List;
+import java.util.Locale;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -91,7 +92,11 @@ public class MainActivity extends AppCompatActivity implements MainContract.View
     //region Listener methods
     @Override
     public void onClickItem(int position) {
-        String message = "position: " + position;
+        String message = String.format(
+                Locale.getDefault(),
+                getString(R.string.position),
+                position
+        );
         Toast.makeText(this, message,  Toast.LENGTH_SHORT).show();
     }
     //endregion
