@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">RecyclerView Pagination</string>
+    <string name="position">position: %d</string>
+    <string name="price_jean">$ %.2f</string>
+</resources>
