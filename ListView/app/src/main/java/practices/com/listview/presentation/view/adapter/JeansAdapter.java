@@ -17,12 +17,15 @@ import practices.com.listview.model.Jean;
 
 public class JeansAdapter extends BaseAdapter {
 
+    //region Member variables
     private List<Jean> jeans;
+    //endregion
 
-
+    //region Constructors
     public JeansAdapter(List<Jean> jeans) {
         this.jeans = jeans;
     }
+    //endregion
 
     @Override
     public int getCount() {

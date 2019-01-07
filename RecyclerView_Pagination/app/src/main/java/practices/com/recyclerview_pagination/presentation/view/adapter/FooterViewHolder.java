@@ -12,7 +12,6 @@ import practices.com.recyclerview_pagination.R;
 public class FooterViewHolder extends RecyclerView.ViewHolder{
 
         //region UI variables
-
         @BindView(R.id.progress_footer)
         ProgressBar progressBar;
         //endregion

@@ -11,10 +11,12 @@ public class MainPresenter implements MainContract.Presenter {
     private JeansRepository jeansRepository;
     //endregion
 
+    //region Constructors
     public MainPresenter(MainContract.View view) {
         this.view = view;
         jeansRepository = new JeansRepository();
     }
+    //endregion
 
 
     @Override

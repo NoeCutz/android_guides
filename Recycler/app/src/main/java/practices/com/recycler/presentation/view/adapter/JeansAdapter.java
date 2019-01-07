@@ -21,15 +21,19 @@ import practices.com.recycler.presentation.view.listener.OnItemClickListener;
 
 public class JeansAdapter extends RecyclerView.Adapter<JeansAdapter.JeanViewHolder> {
 
+    //region Member variables
     private Context context;
     private List<Jean> jeans;
     private OnItemClickListener listener;
+    //endregion
 
+    //region Constructors
     public JeansAdapter(Context context, List<Jean> jeans, OnItemClickListener listener) {
         this.jeans = jeans;
         this.listener = listener;
         this.context =  context;
     }
+    //endregion
 
     @NonNull
     @Override

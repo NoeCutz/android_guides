@@ -9,7 +9,7 @@ import java.util.List;
 
 public abstract class BaseAdapter<T> extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
 
-    //region PresentationConstants
+    //region Constants
     protected static final int ITEM = 1;
     protected static final int FOOTER = 2;
     //endregion
@@ -70,6 +70,7 @@ public abstract class BaseAdapter<T> extends RecyclerView.Adapter<RecyclerView.V
     public abstract void addFooter();
     //endregion
 
+    //region Helper methods
     public void add(T item){
         items.add(item);
         notifyItemInserted(items.size() -1);
@@ -124,4 +125,5 @@ public abstract class BaseAdapter<T> extends RecyclerView.Adapter<RecyclerView.V
     public boolean isLastPosition(int position){
         return (position == items.size() -1);
     }
+    //endregion
 }

@@ -26,13 +26,7 @@ public class MainPresenter implements MainContract.Presenter {
     @Override
     public void loadNextJeans(int pageSize) {
         pageNumber++;
-        try {
-            Thread.sleep(5000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
         view.showNextJeans(jeansRepository.getJeans(pageNumber, pageSize));
-
     }
 
     @Override
