@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Recycler</string>
+    <string name="app_name">ListView</string>
     <string name="position">position: %d</string>
     <string name="price_jean">$ %.2f</string>
 </resources>
