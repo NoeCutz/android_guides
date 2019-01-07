@@ -14,13 +14,16 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 import practices.com.recycler.R;
 import practices.com.recycler.domain.model.Jean;
+import practices.com.recycler.presentation.view.listener.OnItemClickListener;
 
 public class JeansAdapter extends RecyclerView.Adapter<JeansAdapter.JeanViewHolder> {
 
     private List<Jean> jeans;
+    private OnItemClickListener listener;
 
-    public JeansAdapter(List<Jean> jeans) {
+    public JeansAdapter(List<Jean> jeans, OnItemClickListener listener) {
         this.jeans = jeans;
+        this.listener = listener;
     }
 
     @NonNull
@@ -38,12 +41,19 @@ public class JeansAdapter extends RecyclerView.Adapter<JeansAdapter.JeanViewHold
     }
 
     @Override
-    public void onBindViewHolder(@NonNull JeanViewHolder jeanViewHolder, int i) {
-        Jean jean =  jeans.get(i);
+    public void onBindViewHolder(@NonNull JeanViewHolder jeanViewHolder, final int position) {
+        Jean jean =  jeans.get(position);
         jeanViewHolder.nameTextView.setText(jean.getName());
         jeanViewHolder.sizeTextView.setText(jean.getSize());
         String price = Double.toString(jean.getPrice());
         jeanViewHolder.priceTextView.setText(price);
+
+        jeanViewHolder.itemView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                listener.onClickItem(position);
+            }
+        });
     }
 
     //region Inner class
