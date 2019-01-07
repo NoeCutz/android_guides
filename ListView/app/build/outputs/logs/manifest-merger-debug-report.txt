@@ -1,0 +1,154 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/cubicode/Documents/android_guides/ListView/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /Users/cubicode/Documents/android_guides/ListView/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /Users/cubicode/Documents/android_guides/ListView/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /Users/cubicode/Documents/android_guides/ListView/app/src/main/AndroidManifest.xml:2:1-21:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/cubicode/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/0106b68763f1cae4b3db99e70d4f5f7b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/cubicode/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/b1cea6ab913872275fe4689cf44771d6/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/cubicode/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/a8d457222e4875adbe86e30de00753cb/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/cubicode/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/53d8da15525cc0775208e89499f83e80/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/cubicode/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/2a4713033438a284e00b4ccca60c812a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/cubicode/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/29256869ac5003dc313aa4b32bcebb7f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/cubicode/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/92fe177b127458fd564f75ed79a0cc28/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /Users/cubicode/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/1726c967d0cd38d4099080bd2816bf25/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /Users/cubicode/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/012e2bb146df4fe5e28664f4025de9f2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/cubicode/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/5c1bc4832595dea449d92a2913607c75/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/cubicode/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/6d800a75e9a2db758b3483c5789605ff/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/cubicode/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/224887d8eed7fa66ed1e21e20c77500d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /Users/cubicode/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/eb21ebd459f3e20f7c237fe735309229/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/cubicode/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/ba2a70df2f1787fec58fd0f378a93062/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/cubicode/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/beaff4121ff92dd7bb91c651c657a7dc/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /Users/cubicode/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/79dce94149241e7dcefaf12ef936256f/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/cubicode/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/471dfc4f718843595f1b87bf8893cc41/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/cubicode/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/3516b49d605d677d6a8a5145b91b326e/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/cubicode/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/1b3c068467124f9f2d9d56582da2eb82/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /Users/cubicode/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/a6b79407afd8a1594295cc76f34a283f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/cubicode/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/ba52417d004aba20cd6b4d7f835b574a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /Users/cubicode/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/b68b9b5c292cf2f3cd213acd99407ce0/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/cubicode/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/0d285a9cc541ccf6b6dc80d3a3618d17/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/cubicode/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/3d610c031950f72a6145807249af6970/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/cubicode/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/a49ab2e8d7a866a44ed7f02a6c5d3450/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /Users/cubicode/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/c77514f6616f8810c88ae5b9d7826ec9/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /Users/cubicode/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/0c7ef3da0fa8037e7b990c5a17aa4dc5/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/cubicode/Documents/android_guides/ListView/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /Users/cubicode/Documents/android_guides/ListView/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /Users/cubicode/Documents/android_guides/ListView/app/src/main/AndroidManifest.xml:2:1-21:12
+	package
+		ADDED from /Users/cubicode/Documents/android_guides/ListView/app/src/main/AndroidManifest.xml:3:5-37
+		INJECTED from /Users/cubicode/Documents/android_guides/ListView/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/cubicode/Documents/android_guides/ListView/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/cubicode/Documents/android_guides/ListView/app/src/main/AndroidManifest.xml
+		ADDED from /Users/cubicode/Documents/android_guides/ListView/app/src/main/AndroidManifest.xml:2:1-21:12
+		INJECTED from /Users/cubicode/Documents/android_guides/ListView/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/cubicode/Documents/android_guides/ListView/app/src/main/AndroidManifest.xml
+		ADDED from /Users/cubicode/Documents/android_guides/ListView/app/src/main/AndroidManifest.xml:2:1-21:12
+		INJECTED from /Users/cubicode/Documents/android_guides/ListView/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/cubicode/Documents/android_guides/ListView/app/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /Users/cubicode/Documents/android_guides/ListView/app/src/main/AndroidManifest.xml:5:5-19:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/cubicode/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/b1cea6ab913872275fe4689cf44771d6/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/cubicode/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/b1cea6ab913872275fe4689cf44771d6/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-compat:28.0.0] /Users/cubicode/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/79dce94149241e7dcefaf12ef936256f/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /Users/cubicode/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/79dce94149241e7dcefaf12ef936256f/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/cubicode/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/471dfc4f718843595f1b87bf8893cc41/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/cubicode/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/471dfc4f718843595f1b87bf8893cc41/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] /Users/cubicode/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/79dce94149241e7dcefaf12ef936256f/AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from /Users/cubicode/Documents/android_guides/ListView/app/src/main/AndroidManifest.xml:10:9-35
+	android:label
+		ADDED from /Users/cubicode/Documents/android_guides/ListView/app/src/main/AndroidManifest.xml:8:9-41
+	android:roundIcon
+		ADDED from /Users/cubicode/Documents/android_guides/ListView/app/src/main/AndroidManifest.xml:9:9-54
+	android:icon
+		ADDED from /Users/cubicode/Documents/android_guides/ListView/app/src/main/AndroidManifest.xml:7:9-43
+	android:allowBackup
+		ADDED from /Users/cubicode/Documents/android_guides/ListView/app/src/main/AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from /Users/cubicode/Documents/android_guides/ListView/app/src/main/AndroidManifest.xml:11:9-40
+activity#practices.com.listview.MainActivity
+ADDED from /Users/cubicode/Documents/android_guides/ListView/app/src/main/AndroidManifest.xml:12:9-18:20
+	android:name
+		ADDED from /Users/cubicode/Documents/android_guides/ListView/app/src/main/AndroidManifest.xml:12:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/cubicode/Documents/android_guides/ListView/app/src/main/AndroidManifest.xml:13:13-17:29
+action#android.intent.action.MAIN
+ADDED from /Users/cubicode/Documents/android_guides/ListView/app/src/main/AndroidManifest.xml:14:17-69
+	android:name
+		ADDED from /Users/cubicode/Documents/android_guides/ListView/app/src/main/AndroidManifest.xml:14:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/cubicode/Documents/android_guides/ListView/app/src/main/AndroidManifest.xml:16:17-77
+	android:name
+		ADDED from /Users/cubicode/Documents/android_guides/ListView/app/src/main/AndroidManifest.xml:16:27-74
+uses-sdk
+INJECTED from /Users/cubicode/Documents/android_guides/ListView/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/cubicode/Documents/android_guides/ListView/app/src/main/AndroidManifest.xml
+INJECTED from /Users/cubicode/Documents/android_guides/ListView/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/cubicode/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/0106b68763f1cae4b3db99e70d4f5f7b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/cubicode/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/0106b68763f1cae4b3db99e70d4f5f7b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/cubicode/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/b1cea6ab913872275fe4689cf44771d6/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/cubicode/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/b1cea6ab913872275fe4689cf44771d6/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/cubicode/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/a8d457222e4875adbe86e30de00753cb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/cubicode/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/a8d457222e4875adbe86e30de00753cb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/cubicode/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/53d8da15525cc0775208e89499f83e80/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/cubicode/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/53d8da15525cc0775208e89499f83e80/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/cubicode/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/2a4713033438a284e00b4ccca60c812a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/cubicode/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/2a4713033438a284e00b4ccca60c812a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/cubicode/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/29256869ac5003dc313aa4b32bcebb7f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/cubicode/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/29256869ac5003dc313aa4b32bcebb7f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/cubicode/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/92fe177b127458fd564f75ed79a0cc28/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/cubicode/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/92fe177b127458fd564f75ed79a0cc28/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/cubicode/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/1726c967d0cd38d4099080bd2816bf25/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/cubicode/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/1726c967d0cd38d4099080bd2816bf25/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/cubicode/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/012e2bb146df4fe5e28664f4025de9f2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/cubicode/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/012e2bb146df4fe5e28664f4025de9f2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/cubicode/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/5c1bc4832595dea449d92a2913607c75/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/cubicode/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/5c1bc4832595dea449d92a2913607c75/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/cubicode/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/6d800a75e9a2db758b3483c5789605ff/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/cubicode/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/6d800a75e9a2db758b3483c5789605ff/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/cubicode/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/224887d8eed7fa66ed1e21e20c77500d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/cubicode/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/224887d8eed7fa66ed1e21e20c77500d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/cubicode/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/eb21ebd459f3e20f7c237fe735309229/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/cubicode/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/eb21ebd459f3e20f7c237fe735309229/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/cubicode/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/ba2a70df2f1787fec58fd0f378a93062/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/cubicode/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/ba2a70df2f1787fec58fd0f378a93062/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/cubicode/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/beaff4121ff92dd7bb91c651c657a7dc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/cubicode/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/beaff4121ff92dd7bb91c651c657a7dc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/cubicode/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/79dce94149241e7dcefaf12ef936256f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/cubicode/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/79dce94149241e7dcefaf12ef936256f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/cubicode/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/471dfc4f718843595f1b87bf8893cc41/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/cubicode/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/471dfc4f718843595f1b87bf8893cc41/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/cubicode/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/3516b49d605d677d6a8a5145b91b326e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/cubicode/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/3516b49d605d677d6a8a5145b91b326e/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/cubicode/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/1b3c068467124f9f2d9d56582da2eb82/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/cubicode/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/1b3c068467124f9f2d9d56582da2eb82/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/cubicode/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/a6b79407afd8a1594295cc76f34a283f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/cubicode/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/a6b79407afd8a1594295cc76f34a283f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/cubicode/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/ba52417d004aba20cd6b4d7f835b574a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/cubicode/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/ba52417d004aba20cd6b4d7f835b574a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/cubicode/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/b68b9b5c292cf2f3cd213acd99407ce0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/cubicode/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/b68b9b5c292cf2f3cd213acd99407ce0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/cubicode/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/0d285a9cc541ccf6b6dc80d3a3618d17/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/cubicode/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/0d285a9cc541ccf6b6dc80d3a3618d17/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/cubicode/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/3d610c031950f72a6145807249af6970/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/cubicode/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/3d610c031950f72a6145807249af6970/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/cubicode/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/a49ab2e8d7a866a44ed7f02a6c5d3450/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/cubicode/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/a49ab2e8d7a866a44ed7f02a6c5d3450/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/cubicode/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/c77514f6616f8810c88ae5b9d7826ec9/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/cubicode/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/c77514f6616f8810c88ae5b9d7826ec9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/cubicode/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/0c7ef3da0fa8037e7b990c5a17aa4dc5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/cubicode/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/0c7ef3da0fa8037e7b990c5a17aa4dc5/AndroidManifest.xml:20:5-44
+INJECTED from /Users/cubicode/Documents/android_guides/ListView/app/src/main/AndroidManifest.xml
+INJECTED from /Users/cubicode/Documents/android_guides/ListView/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/cubicode/Documents/android_guides/ListView/app/src/main/AndroidManifest.xml
+		ADDED from /Users/cubicode/Documents/android_guides/ListView/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/cubicode/Documents/android_guides/ListView/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/cubicode/Documents/android_guides/ListView/app/src/main/AndroidManifest.xml
+		ADDED from /Users/cubicode/Documents/android_guides/ListView/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/cubicode/Documents/android_guides/ListView/app/src/main/AndroidManifest.xml
