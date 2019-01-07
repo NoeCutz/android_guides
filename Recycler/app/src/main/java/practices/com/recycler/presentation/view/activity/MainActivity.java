@@ -12,6 +12,7 @@ import java.util.List;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
+import butterknife.OnItemSelected;
 import practices.com.recycler.R;
 import practices.com.recycler.domain.model.Jean;
 import practices.com.recycler.presentation.contract.MainContract;
