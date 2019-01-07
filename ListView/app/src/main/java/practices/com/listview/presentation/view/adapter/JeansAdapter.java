@@ -8,6 +8,7 @@ import android.widget.TextView;
 
 
 import java.util.List;
+import java.util.Locale;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -59,7 +60,13 @@ public class JeansAdapter extends BaseAdapter {
         Jean jean = (Jean) getItem(position);
         viewHolder.nameTextView.setText(jean.getName());
         viewHolder.sizeTextView.setText(jean.getSize());
-        viewHolder.priceTextView.setText(Double.toString(jean.getPrice()));
+        String price = String.format(
+                Locale.getDefault(),
+                parent.getContext().getString(R.string.price_jean),
+                jean.getPrice()
+        );
+
+        viewHolder.priceTextView.setText(price);
 
 
         return convertView;

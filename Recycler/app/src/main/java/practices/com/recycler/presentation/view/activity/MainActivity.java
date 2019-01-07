@@ -70,7 +70,7 @@ public class MainActivity extends AppCompatActivity implements MainContract.View
     @Override
     public void showJeans(List<Jean> jeans) {
         hideProgress();
-        JeansAdapter jeansAdapter =  new JeansAdapter(jeans, this);
+        JeansAdapter jeansAdapter =  new JeansAdapter(this, jeans, this);
         jeansRecyclerView.setAdapter(jeansAdapter);
     }
 

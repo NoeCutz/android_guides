@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Recycler</string>
+    <string name="price_jean">$ %.2f</string>
 </resources>

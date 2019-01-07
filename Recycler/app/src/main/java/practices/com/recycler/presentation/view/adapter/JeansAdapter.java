@@ -1,5 +1,6 @@
 package practices.com.recycler.presentation.view.adapter;
 
+import android.content.Context;
 import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -9,6 +10,7 @@ import android.widget.TextView;
 
 
 import java.util.List;
+import java.util.Locale;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -18,12 +20,14 @@ import practices.com.recycler.presentation.view.listener.OnItemClickListener;
 
 public class JeansAdapter extends RecyclerView.Adapter<JeansAdapter.JeanViewHolder> {
 
+    private Context context;
     private List<Jean> jeans;
     private OnItemClickListener listener;
 
-    public JeansAdapter(List<Jean> jeans, OnItemClickListener listener) {
+    public JeansAdapter(Context context, List<Jean> jeans, OnItemClickListener listener) {
         this.jeans = jeans;
         this.listener = listener;
+        this.context =  context;
     }
 
     @NonNull
@@ -45,7 +49,12 @@ public class JeansAdapter extends RecyclerView.Adapter<JeansAdapter.JeanViewHold
         Jean jean =  jeans.get(position);
         jeanViewHolder.nameTextView.setText(jean.getName());
         jeanViewHolder.sizeTextView.setText(jean.getSize());
-        String price = Double.toString(jean.getPrice());
+        String price = String.format(
+                Locale.getDefault(),
+                context.getString(R.string.price_jean),
+                jean.getPrice()
+        );
+
         jeanViewHolder.priceTextView.setText(price);
 
         jeanViewHolder.itemView.setOnClickListener(new View.OnClickListener() {
