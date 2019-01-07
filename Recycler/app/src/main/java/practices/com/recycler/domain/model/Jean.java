@@ -2,13 +2,16 @@ package practices.com.recycler.domain.model;
 
 public class Jean {
 
+    //region Fields
     private String name;
 
     private String size;
 
     private double price;
+    //endregion
 
 
+    //region Constructors
     public Jean() {
     }
 
@@ -17,7 +20,9 @@ public class Jean {
         this.size = size;
         this.price = price;
     }
+    //endregion
 
+    //region Getters and Setters
     public String getName() {
         return name;
     }
@@ -41,4 +46,5 @@ public class Jean {
     public void setPrice(double price) {
         this.price = price;
     }
+    //endregion
 }
