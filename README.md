@@ -1,6 +1,6 @@
 # android_guides
 
-Carpeta de proyectos que contiene demos:
+Carpeta que contiene demos de los siguientes componentes:
 
 * RecyclerView
 * ListView
