@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">BottomNavigation</string>
+
+    <!-- Related to bottom navigation-->
+    <string name="bottom_navigation_home">Home</string>
+    <string name="bottom_navigation_favorites">Favorites</string>
+    <string name="bottom_navigation_notifications">Notifications</string>
+</resources>
