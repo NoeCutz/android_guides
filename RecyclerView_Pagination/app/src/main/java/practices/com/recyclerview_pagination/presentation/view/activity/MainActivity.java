@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity implements MainContract.View
         OnItemClickListener{
 
 
-    //region Constants variables
+    //region Constants
     private static final int PAGE_SIZE = 8;
     //endregion
 

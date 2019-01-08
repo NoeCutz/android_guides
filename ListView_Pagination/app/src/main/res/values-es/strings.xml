@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ListView Paginación</string>
+    <string name="position">posición: %d</string>
+    <string name="price_jean">$ %.2f</string>
+</resources>
