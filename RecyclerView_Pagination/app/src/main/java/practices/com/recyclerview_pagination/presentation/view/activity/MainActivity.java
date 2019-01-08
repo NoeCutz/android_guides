@@ -23,7 +23,7 @@ import practices.com.recyclerview_pagination.presentation.view.listener.OnItemCl
 
 
 public class MainActivity extends AppCompatActivity implements MainContract.View,
-        OnItemClickListener {
+        OnItemClickListener{
 
 
     //region Constants variables
