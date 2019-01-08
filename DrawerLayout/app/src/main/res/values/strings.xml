@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">DrawerLayout</string>
+
+    <!-- Related to navigation-->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="navigation_header_name">User</string>
+    <string name="navigation_header_last_name">Canto</string>
+    <string name="navigation_header_desc">Navigation header</string>
+    <string name="navigation_camera">Camera</string>
+    <string name="navigation_gallery">Gallery</string>
+
+    <!-- Strings related to menu options toolbar-->
+    <string name="menu_toolbar_favorites">Favorites</string>
+    <string name="menu_toolbar_settings">Settings</string>
+
+    <!-- Related to camera fragment-->
+    <string name="camera_message">click camera</string>
+
+    <!-- Related to gallery fragment-->
+    <string name="gallery_message">click gallery</string>
+
+</resources>
